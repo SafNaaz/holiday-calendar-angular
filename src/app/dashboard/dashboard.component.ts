@@ -45,6 +45,9 @@ export class DashboardComponent implements OnInit {
    * get cities
    */
   ngOnInit() {
+    var date = new Date();
+    this.year = date.getFullYear();
+    this.monthIndex = date.getMonth()
     this.holidayServiceObj.getCities().subscribe(data =>{
       this.cities = data;
     })
