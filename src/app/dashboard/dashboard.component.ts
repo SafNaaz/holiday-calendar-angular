@@ -98,10 +98,12 @@ export class DashboardComponent implements OnInit {
    * return false to enable
    */
   yearNavigatorValidation() {
-    if(this.monthIndex === 11){
+    if(this.monthIndex !== 11){
       return false
-    } else{
-      return true
+    }else if(new Date().getMonth() === 11 && this.year === new Date().getFullYear()){
+      return false;
+    }else{
+      return true;
     }
    
   }
