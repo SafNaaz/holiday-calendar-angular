@@ -25,9 +25,6 @@ export class CalendarViewComponent implements OnInit {
   responseDateObjs: Map<any, any> = new Map();
 
   constructor(private holidayServiceObj: HolidayService) {
-    this.holidayServiceObj.getHolidays(this.city,this.monthIndex,this.year).subscribe(data =>{
-      this.responseDateObjs = data;
-    })
 
   }
 
@@ -41,6 +38,7 @@ export class CalendarViewComponent implements OnInit {
 
 
   ngOnInit() {
+    this.holidayInitializer()
   }
 
   /**
@@ -57,6 +55,9 @@ export class CalendarViewComponent implements OnInit {
    * Fetch holiday list and insert into responseDateObjs
    */
   holidayInitializer() {
+    this.holidayServiceObj.getHolidays(this.city,this.monthIndex,this.year).subscribe(data =>{
+      this.responseDateObjs = data;
+    })
  
   }
 }
