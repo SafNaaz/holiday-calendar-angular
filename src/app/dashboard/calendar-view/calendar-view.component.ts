@@ -41,6 +41,7 @@ export class CalendarViewComponent implements OnInit {
 
   ngOnInit() {
     this.holidayInitializer()
+    this.monthGenerator()
   }
 
   /**
@@ -49,7 +50,46 @@ export class CalendarViewComponent implements OnInit {
    *  After generating fetch holiday list.
    */
   monthGenerator() {
+    let daysInMonth = this.daysInMonth(this.monthIndex)
+    
+    let cellPushed = 0;
+    let cellDay = 1
 
+
+    let fullArray = new Array();
+    for(let j=0;j<6;j++){
+      let weekArray = new Array();
+
+    for(let i=0;i<7;i++){
+      let dateInMonth = new DateInMonth();
+      dateInMonth.date = cellDay.toString()
+      dateInMonth.enabled = true;
+      
+      cellPushed++;
+      if(cellPushed > daysInMonth){
+        dateInMonth.enabled = false;
+      }
+      if(cellDay === daysInMonth){
+        cellDay = 0;
+      }
+      cellDay ++
+      weekArray.push(dateInMonth);
+    }
+    fullArray.push(weekArray)
+  }
+
+  console.log(fullArray)
+
+  }
+
+  daysInMonth(monthIndex){
+    if(monthIndex + 1 === 4 || monthIndex + 1 === 6 || monthIndex + 1 === 9 || monthIndex + 1 === 11){
+      return 30;
+    } else if(monthIndex + 1 ===2 ){
+      return 29;
+    } else{
+      return 31
+    }
   }
 
 
