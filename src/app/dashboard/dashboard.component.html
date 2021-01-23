@@ -27,7 +27,7 @@
                     On click should call navigationArrowMonth
                     disable when limit reached
                 -->
-                <button mat-icon-button id="rightMonthKey" aria-label="right naviage" (click)="navigationArrowMonth(1)">
+                <button [disabled]="monthNavigatorValidation()" mat-icon-button id="rightMonthKey" aria-label="right naviage" (click)="navigationArrowMonth(1)">
                     <mat-icon>keyboard_arrow_right
                     </mat-icon>
                 </button>
@@ -55,7 +55,7 @@
                     On click should call navigationArrowYear
                     disable when limit reached
                 -->
-                <button id="rightYearKey" mat-icon-button aria-label="right naviage" (click)="navigationArrowYear(1)"  >
+                <button [disabled]="yearNavigatorValidation()" id="rightYearKey" mat-icon-button aria-label="right naviage" (click)="navigationArrowYear(1)"  >
                     <mat-icon>keyboard_arrow_right
                     </mat-icon>
                 </button>
