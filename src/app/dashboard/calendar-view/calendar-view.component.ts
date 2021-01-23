@@ -13,6 +13,8 @@ export class CalendarViewComponent implements OnInit {
   @Input() year;
   @Input() city;
 
+  weekHeader = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
   // assign user selected date to selectedDate
   selectedDate: any;
 
