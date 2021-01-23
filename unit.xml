@@ -1,608 +1,23 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 83.0.4103 (Windows 10.0.0)" package="unit" timestamp="2021-01-23T12:07:27" id="0" hostname="01HW1745130" tests="43" errors="0" failures="30" time="1.254">
+<testsuite name="Chrome 83.0.4103 (Windows 10.0.0)" package="unit" timestamp="2021-01-23T12:09:47" id="0" hostname="01HW1745130" tests="43" errors="0" failures="28" time="2.003">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
   </properties>
-  <testcase name="DashboardComponent Test TS file navigationArrowYear arrow" time="0.264" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected 2019 to be 2018.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:201:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2017.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:204:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2018.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:207:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2020.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:213:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file Test2 -> navigationArrowMonth arrow " time="0.043" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected 11 to be 0.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:148:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2020.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:149:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 11 to be 10.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:156:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 11 to be 1.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:163:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2020.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:164:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file monthNavigatorValidation should return true" time="0.042" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:223:52)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:229:52)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:235:52)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file monthNavigatorValidation should return false" time="0.026" classname=".DashboardComponent Test TS file"/>
-  <testcase name="DashboardComponent Test TS file ngOnInit to Initialize monthIndex and year" time="0.063" classname=".DashboardComponent Test TS file"/>
-  <testcase name="DashboardComponent Test TS file ngOnInit to load cities" time="0.025" classname=".DashboardComponent Test TS file"/>
-  <testcase name="DashboardComponent Test TS file getCities to get the city list and assign the response to cities" time="0.027" classname=".DashboardComponent Test TS file"/>
-  <testcase name="DashboardComponent Test TS file Test1 -> navigationArrowMonth arrow " time="0.026" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected 10 to be 9.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:125:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 10 to be 8.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:129:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 10 to be 9.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:133:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file Test3 -> navigationArrowMonth arrow " time="0.029" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected 0 to be 11.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:174:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2018.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:175:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 0 to be 10.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:178:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2018.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:179:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 0 to be 11.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:182:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 2019 to be 2018.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:183:30)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 0 to be 2.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:189:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file yearNavigatorValidation should return true" time="0.03" classname=".DashboardComponent Test TS file">
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:269:51)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:275:51)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:281:51)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test TS file yearNavigatorValidation should return true" time="0.029" classname=".DashboardComponent Test TS file"/>
-  <testcase name="DashboardComponent Test HTML Month navigation, right button to be disabled" time="0.027" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected false to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:387:28)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected false to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:394:28)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Month navigation, right button to be enabled" time="0.027" classname=".DashboardComponent Test HTML"/>
-  <testcase name="DashboardComponent Test HTML Test2 Mat-select to display cities" time="0.035" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected 0 to be 6.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:534:27
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-</failure>
-    <failure type="">TypeError: Cannot read property 'getText' of undefined
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:536:37
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
-    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
-    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Month navigation, left button should call navigationArrowMonth function" time="0.038" classname=".DashboardComponent Test HTML"/>
-  <testcase name="DashboardComponent Test HTML Test1 selected city should be assigned to selectedCity" time="0.033" classname=".DashboardComponent Test HTML">
-    <failure type="">TypeError: Cannot read property 'click' of undefined
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:548:27
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
-    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
-    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Month Value should change on button click" time="0.05" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected 'December' to be 'January'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'February'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'March'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'April'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'May'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'June'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'July'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'August'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'September'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'October'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'November'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'December'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'November'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'October'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'September'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'August'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'July'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'June'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'May'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'April'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'March'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-    <failure type="">Error: Expected 'January' to be 'February'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Month navigation, right button should call navigationArrowMonth function" time="0.023" classname=".DashboardComponent Test HTML"/>
-  <testcase name="DashboardComponent Test HTML year Value should change on button click" time="0.026" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected '2019' to be '2020'.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:468:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected '2019' to be '2020'.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:472:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML when navigate month, year value should change on button click" time="0.028" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected '2019' to be '2020'.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:490:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected '2019' to be '2018'.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:500:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'January'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:512:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
-</failure>
-    <failure type="">Error: Expected '2019' to be '2020'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:511:44
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
-</failure>
-    <failure type="">Error: Expected 'December' to be 'January'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:512:45
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
-</failure>
-    <failure type="">Error: Expected '2019' to be '2020'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:511:44
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Year navigation, left button should call navigationArrowYear function" time="0.025" classname=".DashboardComponent Test HTML"/>
-  <testcase name="DashboardComponent Test HTML Test1 Mat-select to display cities" time="0.033" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected 0 to be 3.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:522:27
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-</failure>
-    <failure type="">TypeError: Cannot read property 'getText' of undefined
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:524:37
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
-    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
-    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Year navigation, right button should call navigationArrowYear function" time="0.033" classname=".DashboardComponent Test HTML"/>
-  <testcase name="DashboardComponent Test HTML Year navigation, right button to be disabled" time="0.023" classname=".DashboardComponent Test HTML">
-    <failure type="">Error: Expected false to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:350:28)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">Error: Expected false to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:357:28)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Test2 selected city should be assigned to selectedCity" time="0.03" classname=".DashboardComponent Test HTML">
-    <failure type="">TypeError: Cannot read property 'click' of undefined
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:559:27
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
-    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
-    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
-</failure>
-  </testcase>
-  <testcase name="DashboardComponent Test HTML Year navigation, right button to be enabled" time="0.025" classname=".DashboardComponent Test HTML"/>
-  <testcase name="HolidayService http Test getHolidays should use post method and should return Observable" time="0.009" classname=".HolidayService http"/>
-  <testcase name="HolidayService http Test getCities should use Get method and should return Observable" time="0.002" classname=".HolidayService http"/>
-  <testcase name="CalendarViewComponent HTML file Display Holiday names in calendar" time="0.013" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'queryAll' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:239:38)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file calendar-header should contain header" time="0.013" classname=".CalendarViewComponent HTML file">
-    <failure type="">Error: Expected 0 to be 7.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:127:33)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">TypeError: Cannot read property 'textContent' of undefined
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:130:32)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file calendar-body should contain 42 .td-month" time="0.01" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'nativeElement' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:159:38)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file calendar-body should contain 6 rows" time="0.011" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'nativeElement' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:150:38)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file calendar-header should contain css class" time="0.012" classname=".CalendarViewComponent HTML file">
-    <failure type="">Error: Expected 0 to be 7.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:137:33)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-    <failure type="">TypeError: Cannot read property 'textContent' of undefined
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:140:32)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file Testing number of .tdEnabled css class" time="0.012" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'nativeElement' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:174:38)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file Testing number of .tdDisabled css class" time="0.019" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'nativeElement' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:190:38)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent HTML file Display date" time="0.011" classname=".CalendarViewComponent HTML file">
-    <failure type="">TypeError: Cannot read property 'queryAll' of null
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:204:36)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
-    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
-    at &lt;Jasmine&gt;
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent TS file monthGenerator should call holidayInitializer after generating objects" time="0.011" classname=".CalendarViewComponent TS file">
-    <failure type="">Error: Expected spy holidayInitializer to have been called.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:82:19)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent TS file Test3 monthGenerator should generate Objects" time="0.01" classname=".CalendarViewComponent TS file">
+  <testcase name="CalendarViewComponent TS file Test2 monthGenerator should generate Objects" time="0.559" classname=".CalendarViewComponent TS file">
     <failure type="">Error: Expected $.length = 0 to equal 6.
-Expected $[0] = undefined to equal [ DateInMonth({ enabled: false, date: '23/02/2020' }), DateInMonth({ enabled: false, date: '24/02/2020' }), DateInMonth({ enabled: false, date: '25/02/2020' }), DateInMonth({ enabled: false, date: '26/02/2020' }), DateInMonth({ enabled: false, date: '27/02/2020' }), DateInMonth({ enabled: false, date: '28/02/2020' }), DateInMonth({ enabled: false, date: '29/02/2020' }) ].
-Expected $[1] = undefined to equal [ DateInMonth({ enabled: true, date: '01/03/2020' }), DateInMonth({ enabled: true, date: '02/03/2020' }), DateInMonth({ enabled: true, date: '03/03/2020' }), DateInMonth({ enabled: true, date: '04/03/2020' }), DateInMonth({ enabled: true, date: '05/03/2020' }), DateInMonth({ enabled: true, date: '06/03/2020' }), DateInMonth({ enabled: true, date: '07/03/2020' }) ].
-Expected $[2] = undefined to equal [ DateInMonth({ enabled: true, date: '08/03/2020' }), DateInMonth({ enabled: true, date: '09/03/2020' }), DateInMonth({ enabled: true, date: '10/03/2020' }), DateInMonth({ enabled: true, date: '11/03/2020' }), DateInMonth({ enabled: true, date: '12/03/2020' }), DateInMonth({ enabled: true, date: '13/03/2020' }), DateInMonth({ enabled: true, date: '14/03/2020' }) ].
-Expected $[3] = undefined to equal [ DateInMonth({ enabled: true, date: '15/03/2020' }), DateInMonth({ enabled: true, date: '16/03/2020' }), DateInMonth({ enabled: true, date: '17/03/2020' }), DateInMonth({ enabled: true, date: '18/03/2020' }), DateInMonth({ enabled: true, date: '19/03/2020' }), DateInMonth({ enabled: true, date: '20/03/2020' }), DateInMonth({ enabled: true, date: '21/03/2020' }) ].
-Expected $[4] = undefined to equal [ DateInMonth({ enabled: true, date: '22/03/2020' }), DateInMonth({ enabled: true, date: '23/03/2020' }), DateInMonth({ enabled: true, date: '24/03/2020' }), DateInMonth({ enabled: true, date: '25/03/2020' }), DateInMonth({ enabled: true, date: '26/03/2020' }), DateInMonth({ enabled: true, date: '27/03/2020' }), DateInMonth({ enabled: true, date: '28/03/2020' }) ].
-Expected $[5] = undefined to equal [ DateInMonth({ enabled: true, date: '29/03/2020' }), DateInMonth({ enabled: true, date: '30/03/2020' }), DateInMonth({ enabled: true, date: '31/03/2020' }), DateInMonth({ enabled: false, date: '01/04/2020' }), DateInMonth({ enabled: false, date: '02/04/2020' }), DateInMonth({ enabled: false, date: '03/04/2020' }), DateInMonth({ enabled: false, date: '04/04/2020' }) ].
+Expected $[0] = undefined to equal [ DateInMonth({ enabled: false, date: '24/11/2019' }), DateInMonth({ enabled: false, date: '25/11/2019' }), DateInMonth({ enabled: false, date: '26/11/2019' }), DateInMonth({ enabled: false, date: '27/11/2019' }), DateInMonth({ enabled: false, date: '28/11/2019' }), DateInMonth({ enabled: false, date: '29/11/2019' }), DateInMonth({ enabled: false, date: '30/11/2019' }) ].
+Expected $[1] = undefined to equal [ DateInMonth({ enabled: true, date: '01/12/2019' }), DateInMonth({ enabled: true, date: '02/12/2019' }), DateInMonth({ enabled: true, date: '03/12/2019' }), DateInMonth({ enabled: true, date: '04/12/2019' }), DateInMonth({ enabled: true, date: '05/12/2019' }), DateInMonth({ enabled: true, date: '06/12/2019' }), DateInMonth({ enabled: true, date: '07/12/2019' }) ].
+Expected $[2] = undefined to equal [ DateInMonth({ enabled: true, date: '08/12/2019' }), DateInMonth({ enabled: true, date: '09/12/2019' }), DateInMonth({ enabled: true, date: '10/12/2019' }), DateInMonth({ enabled: true, date: '11/12/2019' }), DateInMonth({ enabled: true, date: '12/12/2019' }), DateInMonth({ enabled: true, date: '13/12/2019' }), DateInMonth({ enabled: true, date: '14/12/2019' }) ].
+Expected $[3] = undefined to equal [ DateInMonth({ enabled: true, date: '15/12/2019' }), DateInMonth({ enabled: true, date: '16/12/2019' }), DateInMonth({ enabled: true, date: '17/12/2019' }), DateInMonth({ enabled: true, date: '18/12/2019' }), DateInMonth({ enabled: true, date: '19/12/2019' }), DateInMonth({ enabled: true, date: '20/12/2019' }), DateInMonth({ enabled: true, date: '21/12/2019' }) ].
+Expected $[4] = undefined to equal [ DateInMonth({ enabled: true, date: '22/12/2019' }), DateInMonth({ enabled: true, date: '23/12/2019' }), DateInMonth({ enabled: true, date: '24/12/2019' }), DateInMonth({ enabled: true, date: '25/12/2019' }), DateInMonth({ enabled: true, date: '26/12/2019' }), DateInMonth({ enabled: true, date: '27/12/2019' }), DateInMonth({ enabled: true, date: '28/12/2019' }) ].
+Expected $[5] = undefined to equal [ DateInMonth({ enabled: true, date: '29/12/2019' }), DateInMonth({ enabled: true, date: '30/12/2019' }), DateInMonth({ enabled: true, date: '31/12/2019' }), DateInMonth({ enabled: false, date: '01/01/2019' }), DateInMonth({ enabled: false, date: '02/01/2019' }), DateInMonth({ enabled: false, date: '03/01/2019' }), DateInMonth({ enabled: false, date: '04/01/2019' }) ].
     at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:73:33)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:65:33)
     at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
     at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
 </failure>
   </testcase>
-  <testcase name="CalendarViewComponent TS file Test1 getHolidays() => response data should be converted and intialized to responseDateObjs" time="0.011" classname=".CalendarViewComponent TS file">
+  <testcase name="CalendarViewComponent TS file Test1 getHolidays() => response data should be converted and intialized to responseDateObjs" time="0.035" classname=".CalendarViewComponent TS file">
     <failure type="">Error: Expected undefined to equal Object({ date: '14/02/2020', id: 131, holidayName: 'kvvvbbbb' }).
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:103:62
@@ -622,17 +37,7 @@ Expected $[5] = undefined to equal [ DateInMonth({ enabled: true, date: '29/03/2
     at http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:102:22
 </failure>
   </testcase>
-  <testcase name="CalendarViewComponent TS file holidayInitializer should use getHolidays() in HolidayService to get holiday list" time="0.01" classname=".CalendarViewComponent TS file">
-    <failure type="">Error: Expected spy HolidayService.getHolidays to have been called with:
-  [ 'ccc', 2, 2020 ]
-but it was never called.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:91:45)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent TS file Test2 getHolidays() => response data should be converted and intialized to responseDateObjs" time="0.014" classname=".CalendarViewComponent TS file">
+  <testcase name="CalendarViewComponent TS file Test2 getHolidays() => response data should be converted and intialized to responseDateObjs" time="0.018" classname=".CalendarViewComponent TS file">
     <failure type="">Error: Expected undefined to equal Object({ date: '05/12/2019', id: 134, holidayName: 'new day' }).
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:115:64
@@ -658,21 +63,7 @@ but it was never called.
     at SafeSubscriber._next (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:114:24)
 </failure>
   </testcase>
-  <testcase name="CalendarViewComponent TS file Test2 monthGenerator should generate Objects" time="0.013" classname=".CalendarViewComponent TS file">
-    <failure type="">Error: Expected $.length = 0 to equal 6.
-Expected $[0] = undefined to equal [ DateInMonth({ enabled: false, date: '24/11/2019' }), DateInMonth({ enabled: false, date: '25/11/2019' }), DateInMonth({ enabled: false, date: '26/11/2019' }), DateInMonth({ enabled: false, date: '27/11/2019' }), DateInMonth({ enabled: false, date: '28/11/2019' }), DateInMonth({ enabled: false, date: '29/11/2019' }), DateInMonth({ enabled: false, date: '30/11/2019' }) ].
-Expected $[1] = undefined to equal [ DateInMonth({ enabled: true, date: '01/12/2019' }), DateInMonth({ enabled: true, date: '02/12/2019' }), DateInMonth({ enabled: true, date: '03/12/2019' }), DateInMonth({ enabled: true, date: '04/12/2019' }), DateInMonth({ enabled: true, date: '05/12/2019' }), DateInMonth({ enabled: true, date: '06/12/2019' }), DateInMonth({ enabled: true, date: '07/12/2019' }) ].
-Expected $[2] = undefined to equal [ DateInMonth({ enabled: true, date: '08/12/2019' }), DateInMonth({ enabled: true, date: '09/12/2019' }), DateInMonth({ enabled: true, date: '10/12/2019' }), DateInMonth({ enabled: true, date: '11/12/2019' }), DateInMonth({ enabled: true, date: '12/12/2019' }), DateInMonth({ enabled: true, date: '13/12/2019' }), DateInMonth({ enabled: true, date: '14/12/2019' }) ].
-Expected $[3] = undefined to equal [ DateInMonth({ enabled: true, date: '15/12/2019' }), DateInMonth({ enabled: true, date: '16/12/2019' }), DateInMonth({ enabled: true, date: '17/12/2019' }), DateInMonth({ enabled: true, date: '18/12/2019' }), DateInMonth({ enabled: true, date: '19/12/2019' }), DateInMonth({ enabled: true, date: '20/12/2019' }), DateInMonth({ enabled: true, date: '21/12/2019' }) ].
-Expected $[4] = undefined to equal [ DateInMonth({ enabled: true, date: '22/12/2019' }), DateInMonth({ enabled: true, date: '23/12/2019' }), DateInMonth({ enabled: true, date: '24/12/2019' }), DateInMonth({ enabled: true, date: '25/12/2019' }), DateInMonth({ enabled: true, date: '26/12/2019' }), DateInMonth({ enabled: true, date: '27/12/2019' }), DateInMonth({ enabled: true, date: '28/12/2019' }) ].
-Expected $[5] = undefined to equal [ DateInMonth({ enabled: true, date: '29/12/2019' }), DateInMonth({ enabled: true, date: '30/12/2019' }), DateInMonth({ enabled: true, date: '31/12/2019' }), DateInMonth({ enabled: false, date: '01/01/2019' }), DateInMonth({ enabled: false, date: '02/01/2019' }), DateInMonth({ enabled: false, date: '03/01/2019' }), DateInMonth({ enabled: false, date: '04/01/2019' }) ].
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:65:33)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
-    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
-</failure>
-  </testcase>
-  <testcase name="CalendarViewComponent TS file Test1 monthGenerator should generate Objects" time="0.013" classname=".CalendarViewComponent TS file">
+  <testcase name="CalendarViewComponent TS file Test1 monthGenerator should generate Objects" time="0.023" classname=".CalendarViewComponent TS file">
     <failure type="">Error: Expected $.length = 0 to equal 6.
 Expected $[0] = undefined to equal [ DateInMonth({ enabled: false, date: '26/01/2020' }), DateInMonth({ enabled: false, date: '27/01/2020' }), DateInMonth({ enabled: false, date: '28/01/2020' }), DateInMonth({ enabled: false, date: '29/01/2020' }), DateInMonth({ enabled: false, date: '30/01/2020' }), DateInMonth({ enabled: false, date: '31/01/2020' }), DateInMonth({ enabled: true, date: '01/02/2020' }) ].
 Expected $[1] = undefined to equal [ DateInMonth({ enabled: true, date: '02/02/2020' }), DateInMonth({ enabled: true, date: '03/02/2020' }), DateInMonth({ enabled: true, date: '04/02/2020' }), DateInMonth({ enabled: true, date: '05/02/2020' }), DateInMonth({ enabled: true, date: '06/02/2020' }), DateInMonth({ enabled: true, date: '07/02/2020' }), DateInMonth({ enabled: true, date: '08/02/2020' }) ].
@@ -682,6 +73,571 @@ Expected $[4] = undefined to equal [ DateInMonth({ enabled: true, date: '23/02/2
 Expected $[5] = undefined to equal [ DateInMonth({ enabled: false, date: '01/03/2020' }), DateInMonth({ enabled: false, date: '02/03/2020' }), DateInMonth({ enabled: false, date: '03/03/2020' }), DateInMonth({ enabled: false, date: '04/03/2020' }), DateInMonth({ enabled: false, date: '05/03/2020' }), DateInMonth({ enabled: false, date: '06/03/2020' }), DateInMonth({ enabled: false, date: '07/03/2020' }) ].
     at &lt;Jasmine&gt;
     at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:57:33)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent TS file Test3 monthGenerator should generate Objects" time="0.019" classname=".CalendarViewComponent TS file">
+    <failure type="">Error: Expected $.length = 0 to equal 6.
+Expected $[0] = undefined to equal [ DateInMonth({ enabled: false, date: '23/02/2020' }), DateInMonth({ enabled: false, date: '24/02/2020' }), DateInMonth({ enabled: false, date: '25/02/2020' }), DateInMonth({ enabled: false, date: '26/02/2020' }), DateInMonth({ enabled: false, date: '27/02/2020' }), DateInMonth({ enabled: false, date: '28/02/2020' }), DateInMonth({ enabled: false, date: '29/02/2020' }) ].
+Expected $[1] = undefined to equal [ DateInMonth({ enabled: true, date: '01/03/2020' }), DateInMonth({ enabled: true, date: '02/03/2020' }), DateInMonth({ enabled: true, date: '03/03/2020' }), DateInMonth({ enabled: true, date: '04/03/2020' }), DateInMonth({ enabled: true, date: '05/03/2020' }), DateInMonth({ enabled: true, date: '06/03/2020' }), DateInMonth({ enabled: true, date: '07/03/2020' }) ].
+Expected $[2] = undefined to equal [ DateInMonth({ enabled: true, date: '08/03/2020' }), DateInMonth({ enabled: true, date: '09/03/2020' }), DateInMonth({ enabled: true, date: '10/03/2020' }), DateInMonth({ enabled: true, date: '11/03/2020' }), DateInMonth({ enabled: true, date: '12/03/2020' }), DateInMonth({ enabled: true, date: '13/03/2020' }), DateInMonth({ enabled: true, date: '14/03/2020' }) ].
+Expected $[3] = undefined to equal [ DateInMonth({ enabled: true, date: '15/03/2020' }), DateInMonth({ enabled: true, date: '16/03/2020' }), DateInMonth({ enabled: true, date: '17/03/2020' }), DateInMonth({ enabled: true, date: '18/03/2020' }), DateInMonth({ enabled: true, date: '19/03/2020' }), DateInMonth({ enabled: true, date: '20/03/2020' }), DateInMonth({ enabled: true, date: '21/03/2020' }) ].
+Expected $[4] = undefined to equal [ DateInMonth({ enabled: true, date: '22/03/2020' }), DateInMonth({ enabled: true, date: '23/03/2020' }), DateInMonth({ enabled: true, date: '24/03/2020' }), DateInMonth({ enabled: true, date: '25/03/2020' }), DateInMonth({ enabled: true, date: '26/03/2020' }), DateInMonth({ enabled: true, date: '27/03/2020' }), DateInMonth({ enabled: true, date: '28/03/2020' }) ].
+Expected $[5] = undefined to equal [ DateInMonth({ enabled: true, date: '29/03/2020' }), DateInMonth({ enabled: true, date: '30/03/2020' }), DateInMonth({ enabled: true, date: '31/03/2020' }), DateInMonth({ enabled: false, date: '01/04/2020' }), DateInMonth({ enabled: false, date: '02/04/2020' }), DateInMonth({ enabled: false, date: '03/04/2020' }), DateInMonth({ enabled: false, date: '04/04/2020' }) ].
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:73:33)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent TS file monthGenerator should call holidayInitializer after generating objects" time="0.015" classname=".CalendarViewComponent TS file">
+    <failure type="">Error: Expected spy holidayInitializer to have been called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:82:19)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent TS file holidayInitializer should use getHolidays() in HolidayService to get holiday list" time="0.014" classname=".CalendarViewComponent TS file">
+    <failure type="">Error: Expected spy HolidayService.getHolidays to have been called with:
+  [ 'ccc', 2, 2020 ]
+but it was never called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:91:45)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file Display date" time="0.013" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'queryAll' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:204:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file Display Holiday names in calendar" time="0.019" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'queryAll' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:239:38)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file Testing number of .tdEnabled css class" time="0.014" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'nativeElement' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:174:38)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file calendar-body should contain 6 rows" time="0.019" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'nativeElement' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:150:38)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file Testing number of .tdDisabled css class" time="0.018" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'nativeElement' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:190:38)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file calendar-header should contain css class" time="0.02" classname=".CalendarViewComponent HTML file">
+    <failure type="">Error: Expected 0 to be 7.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:137:33)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'textContent' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:140:32)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file calendar-body should contain 42 .td-month" time="0.013" classname=".CalendarViewComponent HTML file">
+    <failure type="">TypeError: Cannot read property 'nativeElement' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:159:38)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CalendarViewComponent HTML file calendar-header should contain header" time="0.014" classname=".CalendarViewComponent HTML file">
+    <failure type="">Error: Expected 0 to be 7.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:127:33)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'textContent' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/calendar-view/calendar-view.component.spec.ts:130:32)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:554:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:569:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="HolidayService http Test getHolidays should use post method and should return Observable" time="0.011" classname=".HolidayService http"/>
+  <testcase name="HolidayService http Test getCities should use Get method and should return Observable" time="0.006" classname=".HolidayService http"/>
+  <testcase name="DashboardComponent Test HTML Month navigation, left button should call navigationArrowMonth function" time="0.103" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML year Value should change on button click" time="0.038" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected '2021' to be '2020'.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:472:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML when navigate month, year value should change on button click" time="0.038" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected '2019' to be '2020'.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:490:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected '2019' to be '2018'.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:500:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected '' to be 'January'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:512:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
+</failure>
+    <failure type="">Error: Expected '2019' to be '2020'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:511:44
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
+</failure>
+    <failure type="">Error: Expected '' to be 'January'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:512:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
+</failure>
+    <failure type="">Error: Expected '2019' to be '2020'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:511:44
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
+</failure>
+    <failure type="">Error: Expected '' to be 'December'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:512:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:506:11)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Test1 selected city should be assigned to selectedCity" time="0.042" classname=".DashboardComponent Test HTML">
+    <failure type="">TypeError: Cannot read property 'click' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:548:27
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Test2 Mat-select to display cities" time="0.059" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected 0 to be 6.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:534:27
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+</failure>
+    <failure type="">TypeError: Cannot read property 'getText' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:536:37
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Year navigation, right button to be enabled" time="0.035" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML Test1 Mat-select to display cities" time="0.043" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected 0 to be 3.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:522:27
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+</failure>
+    <failure type="">TypeError: Cannot read property 'getText' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:524:37
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Test2 selected city should be assigned to selectedCity" time="0.045" classname=".DashboardComponent Test HTML">
+    <failure type="">TypeError: Cannot read property 'click' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:559:27
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:851:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:400:1)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:336:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Month navigation, right button should call navigationArrowMonth function" time="0.033" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML Month Value should change on button click" time="0.054" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected '' to be 'January'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'February'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'March'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'April'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'May'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'June'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'July'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'August'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'September'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'October'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'November'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'December'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:442:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:439:13)
+</failure>
+    <failure type="">Error: Expected '' to be 'December'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'November'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'October'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'September'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'August'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'July'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'June'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'May'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'April'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'March'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'February'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+    <failure type="">Error: Expected '' to be 'January'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:450:45
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:447:23)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Year navigation, right button should call navigationArrowYear function" time="0.05" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML Month navigation, right button to be disabled" time="0.046" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected false to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:387:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected false to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:394:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test HTML Year navigation, left button should call navigationArrowYear function" time="0.033" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML Month navigation, right button to be enabled" time="0.039" classname=".DashboardComponent Test HTML"/>
+  <testcase name="DashboardComponent Test HTML Year navigation, right button to be disabled" time="0.038" classname=".DashboardComponent Test HTML">
+    <failure type="">Error: Expected false to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:350:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected false to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:357:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test TS file Test3 -> navigationArrowMonth arrow " time="0.029" classname=".DashboardComponent Test TS file">
+    <failure type="">Error: Expected -1 to be 11.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:174:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 2019 to be 2018.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:175:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected -2 to be 10.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:178:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 2019 to be 2018.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:179:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected -1 to be 11.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:182:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 2019 to be 2018.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:183:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test TS file yearNavigatorValidation should return true" time="0.033" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file navigationArrowYear arrow" time="0.04" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file getCities to get the city list and assign the response to cities" time="0.045" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file yearNavigatorValidation should return true" time="0.039" classname=".DashboardComponent Test TS file">
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:269:51)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:275:51)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:281:51)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test TS file Test1 -> navigationArrowMonth arrow " time="0.047" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file monthNavigatorValidation should return false" time="0.037" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file ngOnInit to Initialize monthIndex and year" time="0.11" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file ngOnInit to load cities" time="0.028" classname=".DashboardComponent Test TS file"/>
+  <testcase name="DashboardComponent Test TS file Test2 -> navigationArrowMonth arrow " time="0.037" classname=".DashboardComponent Test TS file">
+    <failure type="">Error: Expected 12 to be 0.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:148:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 2019 to be 2020.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:149:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 13 to be 1.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:163:36)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected 2019 to be 2020.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:164:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Test TS file monthNavigatorValidation should return true" time="0.032" classname=".DashboardComponent Test TS file">
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:223:52)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:229:52)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:235:52)
     at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:365:1)
     at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:305:1)
 </failure>
