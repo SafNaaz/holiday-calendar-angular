@@ -60,17 +60,17 @@ export class CalendarViewComponent implements OnInit {
       let weekArray = new Array();
 
     for(let i=daysInPrevsMonth-6;(daysInPrevsMonth - i)>=0;i++){
-      console.log(i)
-      console.log((daysInPrevsMonth - i)>7)
       let dateInMonth = new DateInMonth();
-      dateInMonth.date = i.toString()
+      // dateInMonth.date = i.toString()
+      let index = this.monthIndex - 1 == -1 ? 12 : this.monthIndex
+      let month = index < 10 ? `0${index}` : index
+      dateInMonth.date = `${i.toString()}/${month}/${this.year}`
       dateInMonth.enabled = false;
       weekArray.push(dateInMonth);
     }
     fullArray.push(weekArray)
   }
 
-  console.log(fullArray)
 
 
   let daysInMonth = this.daysInMonth(this.monthIndex)
@@ -83,7 +83,14 @@ export class CalendarViewComponent implements OnInit {
 
     for(let i=0;i<7;i++){
       let dateInMonth = new DateInMonth();
-      dateInMonth.date = cellDay.toString()
+      let index = this.monthIndex+1
+      let month = index < 10 ? `0${index}` : index
+      if(cellDay.toString().length<2){
+        //dateInMonth.date = `0${cellDay.toString()}`
+        dateInMonth.date = `0${cellDay.toString()}/${month}/${this.year}`
+      }else{
+      dateInMonth.date = `${cellDay.toString()}/${month}/${this.year}`
+      }
       dateInMonth.enabled = true;
       
       cellPushed++;
@@ -92,6 +99,11 @@ export class CalendarViewComponent implements OnInit {
       }
       if(cellDay === daysInMonth){
         cellDay = 0;
+        if(this.monthIndex == 11){
+          this.monthIndex = 0
+        }else{
+        this.monthIndex++
+        }
       }
       cellDay ++
       weekArray.push(dateInMonth);
@@ -102,7 +114,6 @@ export class CalendarViewComponent implements OnInit {
   this.dateObj = fullArray
   this.holidayInitializer()
 
-  console.log(fullArray)
 
   }
 
