@@ -79,6 +79,7 @@ export class CalendarViewComponent implements OnInit {
   }
 
   this.dateObj = fullArray
+  this.holidayInitializer()
 
   }
 
