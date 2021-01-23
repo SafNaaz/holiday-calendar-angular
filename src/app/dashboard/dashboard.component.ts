@@ -98,14 +98,16 @@ export class DashboardComponent implements OnInit {
    * return false to enable
    */
   yearNavigatorValidation() {
-    if(this.monthIndex !== 11){
-      return true
-    }else if(new Date().getMonth() === 11 && this.year <= new Date().getFullYear()){
+    if(this.monthIndex !== 11 && this.year < new Date().getFullYear()){
+      return false
+    }else if(this.monthIndex !== 11){
+        return true
+    }else if(new Date().getMonth() === 11 && this.year === new Date().getFullYear()){
       return false;
     }else{
       return true;
     }
-   
+
   }
 
   // Get cities list and assign the response value to cities
