@@ -24,7 +24,7 @@
         * If a cell is selected then add "tdSelected" css class to it.
     -->
     <div *ngFor="let row of dateObj" class="tr-row">
-        <div *ngFor="let cell of row" class="td-month">{{cell.date}}</div>
+        <div *ngFor="let cell of row" class="td-month" [ngClass]="[cell.enabled ? 'tdEnabled' : 'tdDisabled']">{{cell.date}}</div>
     </div>
 
     <!--
