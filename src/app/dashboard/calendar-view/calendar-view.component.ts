@@ -78,7 +78,7 @@ export class CalendarViewComponent implements OnInit {
     fullArray.push(weekArray)
   }
 
-  console.log(fullArray)
+  this.dateObj = fullArray
 
   }
 
