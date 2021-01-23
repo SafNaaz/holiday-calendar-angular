@@ -50,14 +50,35 @@ export class CalendarViewComponent implements OnInit {
    *  After generating fetch holiday list.
    */
   monthGenerator() {
-    let daysInMonth = this.daysInMonth(this.monthIndex)
+    let fullArray = new Array();
+
+    let daysInPrevsMonth = this.daysInMonth((this.monthIndex - 1 == -1) ? 11 : this.monthIndex-1)
+    
+
+
+    for(let j=0;j<1;j++){
+      let weekArray = new Array();
+
+    for(let i=daysInPrevsMonth-6;(daysInPrevsMonth - i)>=0;i++){
+      console.log(i)
+      console.log((daysInPrevsMonth - i)>7)
+      let dateInMonth = new DateInMonth();
+      dateInMonth.date = i.toString()
+      dateInMonth.enabled = false;
+      weekArray.push(dateInMonth);
+    }
+    fullArray.push(weekArray)
+  }
+
+  console.log(fullArray)
+
+
+  let daysInMonth = this.daysInMonth(this.monthIndex)
     
     let cellPushed = 0;
     let cellDay = 1
 
-
-    let fullArray = new Array();
-    for(let j=0;j<6;j++){
+    for(let j=1;j<6;j++){
       let weekArray = new Array();
 
     for(let i=0;i<7;i++){
@@ -80,6 +101,8 @@ export class CalendarViewComponent implements OnInit {
 
   this.dateObj = fullArray
   this.holidayInitializer()
+
+  console.log(fullArray)
 
   }
 
