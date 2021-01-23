@@ -48,9 +48,7 @@ export class DashboardComponent implements OnInit {
     var date = new Date();
     this.year = date.getFullYear();
     this.monthIndex = date.getMonth()
-    this.holidayServiceObj.getCities().subscribe(data =>{
-      this.cities = data;
-    })
+    this.getCities();
 
   }
 
@@ -94,7 +92,9 @@ export class DashboardComponent implements OnInit {
 
   // Get cities list and assign the response value to cities
   getCities() {
- 
+    this.holidayServiceObj.getCities().subscribe(data =>{
+      this.cities = data;
+    })
   }
 
 
