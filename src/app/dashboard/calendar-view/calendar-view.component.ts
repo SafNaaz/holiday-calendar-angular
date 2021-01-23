@@ -35,7 +35,7 @@ export class CalendarViewComponent implements OnInit {
    */
 
   ngOnChanges(changes: SimpleChanges): void {
-
+    this.monthGenerator()
   }
 
 
