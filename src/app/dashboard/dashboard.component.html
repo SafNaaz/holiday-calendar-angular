@@ -39,7 +39,7 @@
                 <!--
                      On click should call navigationArrowYear
                     -->
-                <button id="leftYearKey" mat-icon-button aria-label="left naviage">
+                <button id="leftYearKey" mat-icon-button aria-label="left naviage" (click)="navigationArrowYear(0)">
                     <mat-icon>keyboard_arrow_left
                     </mat-icon>
                 </button>
@@ -55,7 +55,7 @@
                     On click should call navigationArrowYear
                     disable when limit reached
                 -->
-                <button id="rightYearKey" mat-icon-button aria-label="right naviage"   >
+                <button id="rightYearKey" mat-icon-button aria-label="right naviage" (click)="navigationArrowYear(1)"  >
                     <mat-icon>keyboard_arrow_right
                     </mat-icon>
                 </button>
