@@ -49,7 +49,6 @@ export class DashboardComponent implements OnInit {
     this.year = date.getFullYear();
     this.monthIndex = date.getMonth()
     this.getCities();
-
   }
 
   /**
@@ -77,7 +76,9 @@ export class DashboardComponent implements OnInit {
    * Return false to enable
    */
   monthNavigatorValidation() {
- 
+    if(this.monthIndex === 11 && new Date().getFullYear() === this.year){
+      
+    }
   }
 
   /**
