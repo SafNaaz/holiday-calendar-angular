@@ -60,8 +60,10 @@ export class DashboardComponent implements OnInit {
     
     if(flag == 0 && this.monthInAlphabets[this.monthIndex]=== 'January'){
       this.monthIndex = 12
+      this.year--
     } else if(flag == 1 && this.monthInAlphabets[this.monthIndex]=== 'December'){
       this.monthIndex = -1
+      this.year++
     }
     flag === 0 ? this.monthIndex-- : this.monthIndex++
   }
