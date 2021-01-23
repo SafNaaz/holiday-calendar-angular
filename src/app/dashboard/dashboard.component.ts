@@ -57,8 +57,13 @@ export class DashboardComponent implements OnInit {
    *  if "flag" is 1 which means that user click right arrow key ->
    */
   navigationArrowMonth(flag) {
-    flag === 0 ? this.monthIndex-- : this.monthIndex++
     
+    if(flag == 0 && this.monthInAlphabets[this.monthIndex]=== 'January'){
+      this.monthIndex = 12
+    } else if(flag == 1 && this.monthInAlphabets[this.monthIndex]=== 'December'){
+      this.monthIndex = -1
+    }
+    flag === 0 ? this.monthIndex-- : this.monthIndex++
   }
 
   /**
