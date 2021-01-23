@@ -55,8 +55,10 @@ export class CalendarViewComponent implements OnInit {
    * Fetch holiday list and insert into responseDateObjs
    */
   holidayInitializer() {
-    this.holidayServiceObj.getHolidays(this.city,this.monthIndex,this.year).subscribe(data =>{
-      this.responseDateObjs = data;
+    this.holidayServiceObj.getHolidays(this.city,this.monthIndex,this.year).subscribe((data : any)=>{
+      data.forEach(element => {
+        this.responseDateObjs.set(element.date,element)
+      });
     })
  
   }
