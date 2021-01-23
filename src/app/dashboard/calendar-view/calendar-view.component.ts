@@ -25,6 +25,9 @@ export class CalendarViewComponent implements OnInit {
   responseDateObjs: Map<any, any> = new Map();
 
   constructor(private holidayServiceObj: HolidayService) {
+    this.holidayServiceObj.getHolidays(this.city,this.monthIndex,this.year).subscribe(data =>{
+      this.responseDateObjs = data;
+    })
 
   }
 
