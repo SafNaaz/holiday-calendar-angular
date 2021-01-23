@@ -17,7 +17,18 @@ export class DashboardComponent implements OnInit {
   year;
 
   // add month names in monthInAlphabets Array
-  monthInAlphabets: Array<any> = [  ];
+  monthInAlphabets: Array<any> = [ 'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December' ];
 
   // Use month index to get month in monthInAlphabets
   monthIndex = 0;
@@ -34,6 +45,9 @@ export class DashboardComponent implements OnInit {
    * get cities
    */
   ngOnInit() {
+    this.holidayServiceObj.getCities().subscribe(data =>{
+      this.cities = data;
+    })
 
   }
 

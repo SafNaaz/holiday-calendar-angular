@@ -31,7 +31,7 @@ export class HolidayService {
    * Use the URL 'api/monthly'
    */
   getHolidays(city: string, monthIndex: number, year: number): Observable<any> {
-    return this.http.post('api/monthly',{city_name: city, month: monthIndex, year});
+    return this.http.post('api/monthly',{city_name: city, month: monthIndex+1, year});
   }
 
   
